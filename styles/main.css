@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+
+html{
+	background: url(../images/bg-main.jpg) no-repeat;
+	background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    }
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body{background: none !important; color: #fff; /* This crap */}
+
+.container {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background: none;
+    max-width: 800px;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    padding: 1em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+footer {
+    padding: 1em;
+    color: #777;
+    text-align: center;
+
+}
+
+.uk-grid{margin: inherit !important; /* And More! */}
+.uk-grid div{padding: 1em; margin-top: 10%;}
+
+.logo{
+	font-family: 'Bangers', sans-serif;
+	font-size: 4em;
+	padding: 1em 0em;
+	color: #fff;
+}
+
+h2, h3{font-weight: bold; font-style: italic; color: #fff;}
+
+#mc_embed_signup{text-align: center;max-width: 500px;margin: auto; }
+.emailcontainer{
+	padding: 1em;
+	color:#fff;
+	background-color: rgba(0,0,0,0.70);
+	margin: 5%% 0;
+}
+label{font-size: 1.2em; font-weight: bold;}
+.email{
+	border-radius: .5em;
+	width: 80%;
+	padding: .5em;
+	border: 1px solid #414469;
+	
+}
+input[type="submit"]{
+	background: #0077dd;
+	padding: .5em .9em;
+	border: 1px solid #414469;
+	border-radius: 0.7em;
+	margin: .5em;
+}
+
+.monospace{font-family: monospace; color: #ccc;}
